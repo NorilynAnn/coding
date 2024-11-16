@@ -1,0 +1,103 @@
+body{
+    background-color:white;
+    
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo{
+    height: 80px;
+    width: 90px;
+    
+}
+
+.onez{
+    color:#fff;
+    transition: all 0.3s linear;
+}
+
+.onez:hover{
+    color: orange;
+}
+
+.twoz{
+    color:#fff;
+    transition: all 0.3s linear;
+}
+
+.twoz:hover{
+    color: rgb(253, 253, 45);
+}
+
+.threez{
+    color:#fff;
+    transition: all 0.3s linear;
+}
+
+.threez:hover{
+    color: rgb(19, 141, 255);
+}
+
+header{
+    text-align: center;
+    background-color: #970404;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headings {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}   
+
+code{
+    color: red;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+
+    section {
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+   
+}
